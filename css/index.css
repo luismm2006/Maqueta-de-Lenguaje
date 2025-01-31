@@ -1,0 +1,64 @@
+/*Esto son el estilo para el menú digamos*/
+header{
+    border-bottom: 1px solid;
+}
+nav{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+nav a{
+    text-decoration: none;
+    margin-left: 30px;
+    color: black;
+}
+nav .Links{
+    margin-right: 30px;
+}
+nav .Links a{
+    margin: 5px;
+    text-decoration: none;
+}
+/*Aquí acaba*/
+main{
+    margin: 20px;
+}
+
+main .SeccionDeCompra{
+    display: flex;
+    width: 100%;
+}
+
+main .SeccionDeCompra img{
+    margin: 5%;
+    width: 350px;
+    height: 400px;
+}
+main .SeccionDeCompra article{
+    flex-direction: column;
+}
+main .SeccionDeCompra article h6{
+    color: red;
+}
+main .SeccionDeCompra article .PrecioCompra{
+    display: flex;
+}
+main .SeccionDeCompra article .PrecioCompra h1{
+    font-size: 25px;
+}
+main .SeccionDeCompra article .PrecioCompra a{
+    margin-top: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    border: 2px solid;
+    background-color: rgb(78, 125, 255);
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    
+}
+main .SeccionDeCompra article .PrecioCompra .Condiciones{
+    display: flex;
+}
